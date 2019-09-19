@@ -1,0 +1,1 @@
+renice -n 10 -p $(ps -aux | awk /bash/{ print } | head -n1)
